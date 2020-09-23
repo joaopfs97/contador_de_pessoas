@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     title: "Contador de Pessoas",
-    home: Container(color: Colors.white,),
+    home: Column(
+      children: <Widget> [
+        Text("Pessoas: 0", style: TextS,)
+      ],
+    )
   ));
 }
 
